@@ -1,0 +1,9 @@
+RR PARFUM — EDICIÓN EDITORIAL
+
+1. Extraé todos los archivos del ZIP.
+2. Abrí la carpeta en Visual Studio Code.
+3. Instalá/activá Live Server si no lo tenés.
+4. Clic derecho en index.html → Open with Live Server.
+5. Antes de publicar, configurá el WhatsApp y el Instagram reales en app.js.
+
+El catálogo de 600 registros está en products.json. Revisá README.md para las notas de variantes e imágenes.
