@@ -757,7 +757,7 @@
       "Ámbar",
       "Almizcle blanco"
     ],
-    "imagen": [],
+    "imagen": ["https://jrsperfumes.com/cdn/shop/files/silverado_21-removebg-preview.png?v=1749593506","https://www.beautyandperfumeintl.com/cdn/shop/files/Amaran-Silverado-21-eau-de-parfum-100ml.webp?v=1762159941&width=416"],
     "descripcion": "Amaran Silverado 21 combina la frescura del pomelo con notas marinas y sal marina que evocan una brisa oceánica intensa. Su corazón aromático de lavanda, laurel, especias y geranio aporta carácter, mientras que la madera de guayaco, el ámbar y el almizcle blanco crean un fondo masculino y elegante.",
     "resena": "Fresco, salino y aromático, destaca por su carácter marino y su fondo amaderado. Es una opción interesante para quienes buscan una fragancia masculina con personalidad, especialmente para días cálidos y actividades al aire libre."
   },
@@ -793,7 +793,7 @@
       "Vetiver",
       "Cedro"
     ],
-    "imagen": [],
+    "imagen": ["https://m.media-amazon.com/images/I/51W4XeKrdbL._SX522_.jpg","https://ecsmedia.pl/c/amaran-silverado-56-edp-100ml-b-iext201010509.jpg"],
     "descripcion": "Amaran Silverado 56 presenta una combinación original de té matcha e higo, con matices verdes, suaves y afrutados. La naranja amarga aporta un contraste cítrico en el corazón, mientras que la haba tonka, el vetiver y el cedro construyen una base amaderada y cálida.",
     "resena": "Verde, afrutada y amaderada, es una fragancia unisex con un perfil moderno y distintivo. Puede resultar atractiva para el uso diario y para quienes prefieren composiciones menos convencionales, con matices de té, frutas y maderas."
   },
@@ -831,7 +831,7 @@
       "Ámbar",
       "Iris"
     ],
-    "imagen": [],
+    "imagen": ["https://www.beautyandperfumeintl.com/cdn/shop/files/Amaran-Silverado-83-eau-de-parfum-100ml-1.webp?v=1762159870&width=416" ,"https://th.bing.com/th/id/R.5433ab1cd4f6f102ced7ee3331b9df30?rik=1IYmO7fc7dqpWw&riu=http%3a%2f%2fwww.beautyandperfumeintl.com%2fcdn%2fshop%2ffiles%2fAmaran-Silverado-83-eau-de-parfum-100ml.webp%3fv%3d1725258568&ehk=9QMvvYPgvlJgy3rlGsteEs1S3oUDYsmxgcPgkVhEI9w%3d&risl=&pid=ImgRaw&r=0"],
     "descripcion": "Amaran Silverado 83 combina la elegancia seca del cedro de Virginia con los matices terrosos del papiro. El cardamomo y la violeta aportan un contraste especiado y floral, mientras que el sándalo, el cuero, el ámbar y el iris dejan un fondo profundo y sofisticado.",
     "resena": "Amaderada, especiada y con matices de cuero, presenta un carácter más serio y elegante que el de una fragancia cítrica convencional. Es apropiada para quienes disfrutan aromas con profundidad, personalidad y un acabado cálido."
   },
@@ -880,7 +880,7 @@
       "Vetiver",
       "Coco"
     ],
-    "imagen": [],
+    "imagen": ["https://i5.walmartimages.cl/asr/0cf5d560-1ce6-470f-85b3-5eb7bf719719.896ba122c66616b27d2c3ae01e82d172.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"],
     "descripcion": "Animale para mujer es una fragancia de carácter chipre floral que combina notas verdes, bergamota, neroli y especias con un corazón floral de rosa, jazmín, miel y ylang-ylang. Su fondo de musgo de roble, pachulí, vetiver, almizcle y coco aporta profundidad y una personalidad intensa.",
     "resena": "Clásica, floral y con un carácter terroso distintivo, ofrece una composición más profunda que la de los perfumes frutales modernos. Es interesante para quienes prefieren fragancias con personalidad, matices verdes y un fondo cálido y persistente."
   },
@@ -919,37 +919,11 @@
       "Cuero",
       "Vetiver"
     ],
-    "imagen": [],
+    "imagen": ["https://alishaperfumes.cl/cdn/shop/files/p-892456000310-2-9b5f5866-c970-4e47-93e5-9743926796cb.jpg?v=1776295570&width=1445"],
     "descripcion": "Animale for Men combina la frescura del limón y el neroli con los matices florales de la fresia. Su corazón aromático de lavanda, enebro y geranio aporta carácter, mientras que el cuero, el musgo de roble y el vetiver forman una base masculina, terrosa y amaderada.",
     "resena": "Aromática, fresca y con un fondo clásico de cuero y maderas, se aleja de las composiciones excesivamente dulces. Es una alternativa para quienes prefieren fragancias masculinas tradicionales con un equilibrio entre cítricos, hierbas y notas terrosas."
   },
-  {
-    "id": 24,
-    "nombre": "ANIMALE SEDUCTION",
-    "marca": "Animale",
-    "Marca": "Diseñador",
-    "categoria": "Diseñador",
-    "genero": "Mujer",
-    "tamano": "100 ml",
-    "concentracion": "No verificada",
-    "acordesPrincipales": [
-      "No verificado",
-      "No verificado",
-      "No verificado",
-      "No verificado",
-      "No verificado"
-    ],
-    "familia": "No verificada",
-    "duracion": "No verificada",
-    "intensidad": null,
-    "proyeccion": null,
-    "notasSalida": [],
-    "notasCorazon": [],
-    "notasFondo": [],
-    "imagen": [],
-    "descripcion": "La identificación exacta de Animale Seduction para mujer no pudo confirmarse con suficiente seguridad. Se requiere verificar la presentación o el fabricante antes de asignar una descripción olfativa definitiva.",
-    "resena": "Pendiente de verificación. No se asignan notas, acordes ni características de rendimiento sin confirmar que corresponden a la versión comercial exacta."
-  },
+ 
   {
     "id": 25,
     "nombre": "BLACK SEDUCTION",
@@ -985,7 +959,7 @@
       "Ámbar",
       "Almizcle"
     ],
-    "imagen": [],
+    "imagen": ["https://tse3.mm.bing.net/th/id/OIP.pQ7xNOLEAkzNIPatB07hNgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"],
     "descripcion": "Antonio Banderas Black Seduction es una fragancia masculina que combina la bergamota y el casis con un corazón especiado de cardamomo, nuez moscada y cilantro. Su fondo de cedro, haba tonka, ámbar y almizcle aporta calidez y sensualidad.",
     "resena": "Especiada, cálida y amaderada, ofrece un perfil masculino adecuado para salidas y encuentros nocturnos. Su mezcla de especias y ámbar crea una sensación envolvente sin perder el carácter informal característico de la línea Seduction."
   },
@@ -1026,7 +1000,7 @@
       "Notas amaderadas",
       "Ámbar"
     ],
-    "imagen": [],
+    "imagen": ["https://tse2.mm.bing.net/th/id/OIP.olIjiHIrt6_ruyO6lX5rAgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"],
     "descripcion": "Antonio Banderas Blue Seduction para hombre combina melón, bergamota, menta y grosella negra en una salida fresca y afrutada. El corazón incorpora notas marinas, manzana verde, capuchino y especias, mientras que las maderas y el ámbar aportan calidez al fondo.",
     "resena": "Fresca, acuática y juvenil, es una fragancia versátil para el uso diario, los días cálidos y las actividades casuales. Su carácter ligero la convierte en una opción sencilla para quienes prefieren aromas limpios y frutales."
   },
@@ -1072,51 +1046,11 @@
       "Notas amaderadas",
       "Notas azucaradas"
     ],
-    "imagen": [],
+    "imagen": ["https://perfugroupar.vtexassets.com/arquivos/ids/160392-800-auto?v=637686998225330000&width=800&height=auto&aspect=true"],
     "descripcion": "Blue Seduction Woman combina la frescura de la bergamota, la pera, el melón y las hojas de violeta con un corazón floral de gardenia, peonía, rosa y jazmín. Su fondo de benjuí, pachulí, almizcle y maderas aporta suavidad y un acabado delicadamente dulce.",
     "resena": "Floral, fresca y acuática, ofrece una sensación ligera y femenina ideal para el día a día. Su combinación de frutas, flores y almizcle resulta apropiada para climas cálidos y ocasiones informales."
   },
-  {
-    "id": 28,
-    "nombre": "BLUE SEDUCTION",
-    "marca": "Antonio Banderas",
-    "Marca": "Diseñador",
-    "categoria": "Diseñador",
-    "genero": "Hombre",
-    "tamano": "200 ml",
-    "concentracion": "Eau de Toilette (EDT)",
-    "acordesPrincipales": [
-      "acuático",
-      "afrutado",
-      "aromático",
-      "fresco",
-      "cítrico"
-    ],
-    "familia": "Oriental Fougère",
-    "duracion": "Media",
-    "intensidad": 2,
-    "proyeccion": 2,
-    "notasSalida": [
-      "Melón",
-      "Bergamota",
-      "Menta",
-      "Grosella negra"
-    ],
-    "notasCorazon": [
-      "Agua de mar",
-      "Manzana verde",
-      "Capuchino",
-      "Cardamomo",
-      "Nuez moscada"
-    ],
-    "notasFondo": [
-      "Notas amaderadas",
-      "Ámbar"
-    ],
-    "imagen": [],
-    "descripcion": "Antonio Banderas Blue Seduction para hombre combina melón, bergamota, menta y grosella negra con notas marinas, manzana verde y un toque especiado. Las notas amaderadas y el ámbar completan una composición fresca y desenfadada.",
-    "resena": "Fresca, acuática y afrutada, funciona especialmente bien para el uso cotidiano, actividades informales y climas cálidos. Su perfil ligero es apropiado para quienes buscan una fragancia agradable y fácil de llevar."
-  },
+  
   {
     "id": 29,
     "nombre": "HER GOLDEN SECRET",
@@ -1155,7 +1089,7 @@
       "Pachulí",
       "Cedro"
     ],
-    "imagen": [],
+    "imagen": ["https://cdn.awsli.com.br/2500x2500/2730/2730256/produto/262716607/her-golden-secret-banderas-eau-de-toilette---perfume-feminino-80ml-28vvvo72f9.png"],
     "descripcion": "Antonio Banderas Her Golden Secret combina melocotón, manzana, mandarina y bergamota con un corazón de gardenia, flor de azahar y grosella negra. Su fondo de vainilla, haba tonka, almizcle, pachulí y cedro aporta dulzura y calidez.",
     "resena": "Dulce, frutal y floral, presenta un carácter femenino y envolvente. Es una opción versátil para el día a día, citas y salidas casuales, especialmente para quienes disfrutan aromas suaves con un fondo avainillado."
   },
@@ -1198,96 +1132,12 @@
       "Ámbar",
       "Almizcle blanco"
     ],
-    "imagen": [],
+    "imagen": ["https://www.nmperfumerias.cl/cdn/shop/products/king-os-seduction-tester-100-ml-ea8997d1-52f0-471c-9d29-0b55dbd04f7e_1200x_7ce567ee-e94c-428d-bb57-47f527e1875b.jpg?v=1754933998&width=1200"],
     "descripcion": "Antonio Banderas King of Seduction combina bergamota, piña, pomelo, melón y manzana verde con un corazón de neroli, jazmín, cardamomo y notas acuosas. Su fondo de cedro, vetiver, ámbar y almizcle blanco aporta elegancia y una sensación limpia.",
     "resena": "Fresca, cítrica y acuática, es una fragancia masculina pensada para el uso cotidiano. Su carácter ligero y aromático resulta apropiado para climas cálidos, oficina, reuniones informales y actividades diurnas."
   },
-  {
-    "id": 31,
-    "nombre": "KING OF SEDUCTION",
-    "marca": "Antonio Banderas",
-    "Marca": "Diseñador",
-    "categoria": "Diseñador",
-    "genero": "Hombre",
-    "tamano": "200 ml",
-    "concentracion": "Eau de Toilette (EDT)",
-    "acordesPrincipales": [
-      "cítrico",
-      "acuático",
-      "afrutado",
-      "amaderado",
-      "aromático"
-    ],
-    "familia": "Aromática Acuática",
-    "duracion": "Media",
-    "intensidad": 2,
-    "proyeccion": 2,
-    "notasSalida": [
-      "Bergamota",
-      "Piña",
-      "Pomelo",
-      "Melón",
-      "Manzana verde"
-    ],
-    "notasCorazon": [
-      "Neroli",
-      "Jazmín",
-      "Cardamomo",
-      "Acorde acuoso"
-    ],
-    "notasFondo": [
-      "Cedro",
-      "Vetiver",
-      "Ámbar",
-      "Almizcle blanco"
-    ],
-    "imagen": [],
-    "descripcion": "Antonio Banderas King of Seduction combina notas cítricas y frutales con un corazón aromático y acuático de neroli, jazmín y cardamomo. El cedro, el vetiver, el ámbar y el almizcle blanco forman un fondo masculino y refinado.",
-    "resena": "Versátil, fresca y fácil de llevar, destaca por su combinación de cítricos, frutas y maderas. Es una alternativa apropiada para el día a día y para quienes buscan una fragancia masculina ligera y agradable."
-  },
-  {
-    "id": 32,
-    "nombre": "KING OF SEDUCTION",
-    "marca": "Antonio Banderas",
-    "Marca": "Diseñador",
-    "categoria": "Diseñador",
-    "genero": "Hombre",
-    "tamano": "200 ml",
-    "concentracion": "Eau de Toilette (EDT)",
-    "acordesPrincipales": [
-      "cítrico",
-      "acuático",
-      "afrutado",
-      "amaderado",
-      "aromático"
-    ],
-    "familia": "Aromática Acuática",
-    "duracion": "Media",
-    "intensidad": 2,
-    "proyeccion": 2,
-    "notasSalida": [
-      "Bergamota",
-      "Piña",
-      "Pomelo",
-      "Melón",
-      "Manzana verde"
-    ],
-    "notasCorazon": [
-      "Neroli",
-      "Jazmín",
-      "Cardamomo",
-      "Acorde acuoso"
-    ],
-    "notasFondo": [
-      "Cedro",
-      "Vetiver",
-      "Ámbar",
-      "Almizcle blanco"
-    ],
-    "imagen": [],
-    "descripcion": "Antonio Banderas King of Seduction es una fragancia masculina fresca que combina cítricos, frutas y notas acuosas con un corazón aromático de cardamomo, neroli y jazmín. Su base de cedro, vetiver, ámbar y almizcle blanco proporciona un acabado limpio y amaderado.",
-    "resena": "Fresca, cítrica y versátil, es adecuada para actividades diurnas, climas cálidos y uso cotidiano. Esta entrada parece corresponder a la misma fragancia de 200 ml del registro anterior; no se ha confirmado una variante distinta."
-  },
+  
+
   {
     "id": 33,
     "nombre": "KING OF SEDUCTION ABSOLUTE",
@@ -1326,31 +1176,11 @@
       "Musgo de roble",
       "Vetiver"
     ],
-    "imagen": [],
+    "imagen": ["https://www.zafiroperfumeria.com/wp-content/uploads/2024/12/King-of-Seduction-Absolute-Antonio-Banderas.png"],
     "descripcion": "Antonio Banderas King of Seduction Absolute combina pomelo, ajenjo, almendra verde y notas ozónicas en una salida cítrica y estimulante. Su corazón marino de lavanda, cardamomo y sal marina conduce a un fondo de cuero, musgo de roble y vetiver que aporta profundidad y carácter.",
     "resena": "Fresca, marina y aromática, incorpora un fondo de cuero y vetiver que la distingue de las fragancias acuáticas más sencillas. Es una opción masculina para el día, salidas informales y quienes prefieren aromas frescos con un matiz amaderado y elegante."
   },
-   {
-    "id": 34,
-    "nombre": "King of Seduction Absolute",
-    "marca": "Antonio Banderas",
-    "Marca": "Diseñador",
-    "categoria": "Diseñador",
-    "genero": "Hombre",
-    "tamano": "200ml",
-    "concentracion": "Eau de Toilette",
-    "acordesPrincipales": ["Aromático", "Cítrico", "Marino", "Lavanda", "Amaderado"],
-    "familia": "Amaderada aromática",
-    "duracion": "Media; puede variar según la piel",
-    "intensidad": null,
-    "proyeccion": null,
-    "notasSalida": ["Pomelo", "Toronja", "Ajenjo", "Almendra verde", "Notas ozónicas"],
-    "notasCorazon": ["Notas marinas", "Lavanda", "Cardamomo", "Sal marina"],
-    "notasFondo": ["Cuero", "Musgo de roble", "Vetiver"],
-    "imagen": [],
-    "descripcion": "Una fragancia masculina fresca y aromática que combina cítricos, notas marinas y un fondo de cuero y maderas.",
-    "resena": "Su carácter acuático y amaderado ofrece una alternativa fresca con un toque especiado y masculino."
-  },
+   
   {
     "id": 35,
     "nombre": "Power of Seduction",
@@ -1389,7 +1219,7 @@
     "notasSalida": ["Bergamota", "Manzana", "Notas cítricas", "Notas afrutadas"],
     "notasCorazon": ["Lavanda", "Salvia", "Notas aromáticas"],
     "notasFondo": ["Ámbar", "Musgo", "Pachulí", "Haba tonka", "Notas amaderadas"],
-    "imagen": [],
+    "imagen": ["https://www.vhv.rs/dpng/d/274-2744424_perfume-power-of-seduction-extreme-precio-hd-png.png"],
     "descripcion": "Una fragancia masculina de perfil aromático y amaderado, con una apertura fresca y afrutada.",
     "resena": "Mantiene el perfil del Power of Seduction original en una presentación de mayor tamaño."
   },
@@ -1410,7 +1240,7 @@
     "notasSalida": ["Pomelo", "Frambuesa", "Acorde acuoso", "Notas cítricas", "Notas afrutadas"],
     "notasCorazon": ["Pimienta rosa", "Jazmín", "Iris", "Peonía"],
     "notasFondo": ["Ámbar", "Cuero", "Cedro", "Acorde de ante"],
-    "imagen": [],
+    "imagen": ["https://vypmayorista.cl/wp-content/uploads/2024/03/gsc_129232544_5514453_1-0c14e17e-56ae-486a-b678-d833886e85ba.jpg"],
     "descripcion": "Una fragancia femenina fresca que mezcla frutas, notas acuáticas y un corazón floral con un fondo cálido.",
     "resena": "Su perfil cítrico y acuático transmite una sensación luminosa, delicada y femenina."
   },
@@ -1431,7 +1261,7 @@
     "notasSalida": ["Bergamota", "Grosella negra"],
     "notasCorazon": ["Jazmín", "Flor de naranjo"],
     "notasFondo": ["Vainilla", "Almizcle"],
-    "imagen": [],
+    "imagen": ["https://azuldemonta.com.ar/wp-content/uploads/2025/02/THA-ICON-SUPREME.png"],
     "descripcion": "Una fragancia femenina elegante que combina la frescura cítrica y frutal con flores blancas y una base suave.",
     "resena": "Su composición floral con vainilla y almizcle busca un equilibrio entre delicadeza y carácter."
   },
@@ -1452,7 +1282,7 @@
     "notasSalida": ["Pomelo blanco", "Bergamota", "Menta", "Notas cítricas aromáticas"],
     "notasCorazon": ["Cardamomo", "Canela", "Pimienta", "Acorde de manzana licorosa"],
     "notasFondo": ["Madera", "Cuero", "Almizcle", "Pachulí", "Vainilla", "Haba tonka"],
-    "imagen": [],
+    "imagen": ["https://tse2.mm.bing.net/th/id/OIP.gEyB3RV4_KBctX2aKJYiGAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"],
     "descripcion": "Una fragancia masculina misteriosa que mezcla menta y cítricos con especias y un fondo cálido.",
     "resena": "El contraste entre su salida fresca y sus notas especiadas y amaderadas le da un carácter seductor."
   },
@@ -1465,15 +1295,15 @@
     "genero": "Hombre",
     "tamano": "100ml",
     "concentracion": "Eau de Toilette",
-    "acordesPrincipales": ["No verificado", "No verificado", "No verificado", "No verificado", "No verificado"],
-    "familia": "No verificada",
-    "duracion": "No verificada",
-    "intensidad": null,
+    "acordesPrincipales": ["Especiado calido", "Amaderado", "Aromatico", "Vainilla", "Ambar"],
+    "familia": "Amaderada especiada",
+    "duracion": "6.5",
+    "intensidad": "4",
     "proyeccion": null,
     "notasSalida": [],
     "notasCorazon": [],
     "notasFondo": [],
-    "imagen": [],
+    "imagen": ["https://cdn.shopify.com/s/files/1/2170/5343/products/Perfume-EDT-Antonio-Banderas-The-Secret-Temptation-100ml-21415.00_2048x2048.jpg?v=1571609992"],
     "descripcion": "Fragancia masculina que aparece en catálogos como The Secret Temptation. La pirámide olfativa exacta no se confirmó con suficiente seguridad.",
     "resena": "Conviene verificar la variante y su información olfativa antes de completar la ficha del catálogo."
   },
