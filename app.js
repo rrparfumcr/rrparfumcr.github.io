@@ -92,7 +92,7 @@ function setDeliveryPin(latitude,longitude){
  state.gamValidationTimer=setTimeout(()=>verifyGamLocation(position[0],position[1],token),500);
 }
 const GAM_CANTONS=new Set(['san jose','escazu','desamparados','aserri','mora','goicoechea','santa ana','alajuelita','vazquez de coronado','tibas','moravia','montes de oca','curridabat','alajuela','grecia','atenas','cartago','paraiso','la union','alvarado','oreamuno','el guarco','barva','santo domingo','santa barbara','san rafael','san isidro','belen','flores','san pablo']);
-function normalizedCanton(value){return normalize(value).replace(/^(canton|cant[oó]n|municipio|municipality)\\s+(de|del)\\s+/,'').replace(/^(canton|cant[oó]n|municipio|municipality)\\s+/,'').trim();}
+function normalizedCanton(value){return normalize(value).replace(/^(canton|municipio|municipality)\s+(de|del|of)\s+/,'').replace(/^(canton|municipio|municipality)\s+/,'').replace(/\s+(canton|county)$/,'').trim();}
 async function verifyGamLocation(latitude,longitude,token){
  try{
   const delay=Math.max(0,1100-(Date.now()-state.lastGeocodeRequest));if(delay)await new Promise(resolve=>setTimeout(resolve,delay));
@@ -104,12 +104,12 @@ async function verifyGamLocation(latitude,longitude,token){
   const result=await response.json();if(token!==state.gamValidationToken)return;
   if(result.error||!result.address)throw new Error('No se pudo identificar el cantón de esta ubicación.');
   if(result.address.country_code!=='cr'){state.gamValidation='outside';setMapStatus('La ubicación está fuera de Costa Rica. Para esta dirección, seleccioná envío por Correos de Costa Rica.','error');return;}
-  const address=result.address;const cantonValue=address.county||address.municipality||address.city_district;
-  if(!cantonValue)throw new Error('No se pudo identificar el cantón de esta ubicación.');
-  const canton=normalizedCanton(cantonValue);const inside=GAM_CANTONS.has(canton);
-  state.gamValidation=inside?'inside':'outside';
-  if(inside)setMapStatus(`Ubicación verificada en ${cantonValue}; está dentro de los cantones reconocidos del GAM.`,'success');
-  else setMapStatus('Esta ubicación no está dentro de los cantones reconocidos del GAM. Para esta dirección, seleccioná envío por Correos de Costa Rica.','error');
+  const address=result.address;const cantonCandidates=[address.county,address.municipality,address.city_district].filter(Boolean);
+  const matchingCanton=cantonCandidates.find(value=>GAM_CANTONS.has(normalizedCanton(value)));
+  if(matchingCanton){state.gamValidation='inside';setMapStatus(`Ubicación verificada en ${matchingCanton}; está dentro de los cantones reconocidos del GAM.`,'success');return;}
+  if(!cantonCandidates.length)throw new Error('No se pudo identificar el cantón de esta ubicación.');
+  state.gamValidation='outside';
+  setMapStatus('Esta ubicación no está dentro de los cantones reconocidos del GAM. Para esta dirección, seleccioná envío por Correos de Costa Rica.','error');
  }catch(error){
   if(token!==state.gamValidationToken)return;
   state.gamValidation='unverified';setMapStatus(`No se pudo verificar si la ubicación está dentro del GAM. ${error.message} Probá otro punto o elegí Correos de Costa Rica.`,'error');console.error(error);
