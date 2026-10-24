@@ -1,18 +1,20 @@
 # RR Parfum — Edición Editorial
 
-Sitio web responsive en HTML, CSS y JavaScript con estética editorial de lujo, catálogo consultable, filtros, búsqueda, fichas detalladas y enlaces de consulta por WhatsApp.
+Sitio web responsive en HTML, CSS y JavaScript con estética editorial de lujo, catálogo consultable, filtros, búsqueda, fichas detalladas, carrito de compras y pedidos por WhatsApp.
 
 ## Archivos
 - `index.html`: estructura de la página.
 - `styles.css`: diseño, responsive y animaciones.
-- `app.js`: filtros, búsqueda, modal de producto y enlaces comerciales.
+- `app.js`: filtros, búsqueda, modales de producto y carrito, persistencia del carrito y pedidos por WhatsApp.
 - `products.json`: catálogo editable de productos.
 
 ## Importante antes de publicar
 1. Abrí `app.js` y configurá `whatsappNumber` con el número comercial en formato internacional, solo dígitos (Costa Rica: `506` + número). Configurá `instagramUrl` con el enlace real del perfil.
-2. Las entradas originales del catálogo se conservan. La base anterior solo traía tres categorías principales (`Diseñador`, `Árabe`, `Body`) y no identificaba de forma consistente la concentración/versión en campos separados; el sitio permite buscar por esos datos si se agregan, pero no inventa versiones. Los duplicados de nombre se conservan intencionalmente hasta verificar si son variantes reales.
-3. Varias entradas del catálogo anterior usan imágenes genéricas repetidas. La web mantiene las imágenes disponibles y una imagen de respaldo; las fotos de portada y colecciones son fotografías editoriales de referencia, no garantizan que representen el frasco exacto de cada producto. Para imágenes exactas hay que asociar cada variante con su fotografía verificada.
-4. El catálogo se carga con `fetch`, por lo que no conviene abrir `index.html` directamente con doble clic. Probalo con Live Server en VS Code o publicalo en GitHub Pages.
+2. El botón para agregar al carrito está en cada ficha de perfume. El carrito se conserva en el navegador, muestra la imagen y permite abrir la ficha completa o eliminar productos. Para realizar el pedido, solicita nombre completo, cédula, correo y teléfono. Cédula y teléfono solo aceptan dígitos; el teléfono valida 8 dígitos del formato nacional de Costa Rica. También permite indicar entrega normal, entrega solicitada dentro del GAM con dirección y punto en mapa, o envío de Correos de Costa Rica con provincia, cantón, distrito, código postal y señas. La elección entre Uber Flash y entrega personal se coordina con RR Parfum. Si se intenta elegir ambos métodos especiales, aparece una alerta y hay que cambiar el método actual a «No» antes de seleccionar el otro. La ubicación del GAM se valida consultando su cantón con OpenStreetMap/Nominatim y una lista de cantones reconocidos del GAM; no sustituye la confirmación final de cobertura del servicio de entrega. El pedido y los detalles de entrega se envían a WhatsApp para que el cliente lo revise y lo envíe.
+3. La búsqueda y los mapas de entrega usan Leaflet, OpenStreetMap y el servicio de búsqueda Nominatim, por lo que requieren conexión a internet. La ubicación y los datos de contacto/dirección que el cliente incluya en el pedido se compartirán en el mensaje de WhatsApp.
+4. Las entradas originales del catálogo se conservan. La base anterior solo traía tres categorías principales (`Diseñador`, `Árabe`, `Body`) y no identificaba de forma consistente la concentración/versión en campos separados; el sitio permite buscar por esos datos si se agregan, pero no inventa versiones. Los duplicados de nombre se conservan intencionalmente hasta verificar si son variantes reales.
+5. Varias entradas del catálogo anterior usan imágenes genéricas repetidas. La web mantiene las imágenes disponibles y una imagen de respaldo; las fotos de portada y colecciones son fotografías editoriales de referencia, no garantizan que representen el frasco exacto de cada producto. Para imágenes exactas hay que asociar cada variante con su fotografía verificada.
+6. El catálogo se carga con `fetch`, por lo que no conviene abrir `index.html` directamente con doble clic. Probalo con Live Server en VS Code o publicalo en GitHub Pages.
 
 ## Publicación en GitHub Pages
 Subí el contenido de esta carpeta a la raíz de un repositorio, entrá en **Settings → Pages**, elegí la rama principal y `/ (root)`, y guardá. Cuando termine el despliegue, usá la URL que GitHub Pages indique.

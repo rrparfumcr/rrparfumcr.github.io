@@ -40,6 +40,53 @@
   <a class="floating-whatsapp" id="floatingWhatsApp" href="#" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp"><svg width="25" height="25" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20l.9-4.7A8.5 8.5 0 1 1 20.5 11.7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.3 7.8c.2-.4.4-.4.7-.4h.4c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.3 0 .6.5.8 1.2 1.5 2 1.9.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.7-.1l1.6.8c.2.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.4-1.1.6-1.7.5-.6-.1-1.3-.3-2.2-.8-1.1-.6-2-1.5-2.8-2.5-.7-.9-1.1-1.9-1.2-2.6-.1-.8.3-1.5.7-1.9Z" fill="currentColor"/></svg></a>
   <a class="floating-instagram" id="floatingInstagram" href="#" target="_blank" rel="noopener" aria-label="Visitar Instagram"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg></a>
   <div class="modal-backdrop" id="productModal" aria-hidden="true"><div class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalName"><button class="modal-close" id="modalClose" aria-label="Cerrar">×</button><div class="modal-image-wrap"><div class="modal-image-stage"><img id="modalImage" alt=""><span id="modalCategory" class="modal-category"></span><button class="modal-image-nav modal-image-prev" id="modalImagePrev" type="button" aria-label="Ver imagen anterior" hidden>‹︎</button><button class="modal-image-nav modal-image-next" id="modalImageNext" type="button" aria-label="Ver imagen siguiente" hidden>›︎</button></div><div class="modal-image-dots" id="modalImageDots" aria-label="Seleccionar imagen" hidden></div></div><div class="modal-details"><div class="section-kicker" id="modalBrand"></div><h2 id="modalName"></h2><p class="modal-gender" id="modalGender"></p><p class="modal-description" id="modalDescription"></p><h3 class="section-kicker">Acordes principales</h3><div class="detail-grid" id="modalAccords"></div><h3 class="section-kicker">Datos del perfume</h3><div class="detail-grid" id="modalFacts"></div><h3 class="section-kicker">Composición</h3><div class="notes-block" id="modalNotes"></div><a class="button button-gold modal-cta" id="modalWhatsApp" href="#" target="_blank" rel="noopener">Consultar precio y disponibilidad ↗︎</a><small>Precio sujeto a consulta y disponibilidad.</small></div></div></div>
+  <button class="floating-cart" id="floatingCart" type="button" aria-label="Abrir carrito, 0 productos"><span>Carrito</span><b id="cartCount">0</b></button>
+  <div class="modal-backdrop cart-backdrop" id="cartModal" aria-hidden="true"><section class="cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><button class="modal-close" id="cartClose" type="button" aria-label="Cerrar carrito">×</button><p class="section-kicker">TU SELECCIÓN</p><h2 id="cartTitle">Carrito de compras</h2><div class="cart-items" id="cartItems"></div><div class="cart-footer"><button class="button button-outline" id="continueShopping" type="button">Seguir explorando</button><button class="button button-gold" id="startCheckout" type="button">Realizar pedido</button></div></section></div>
+  <div class="modal-backdrop cart-backdrop" id="checkoutModal" aria-hidden="true">
+    <section class="checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="modal-close" id="checkoutClose" type="button" aria-label="Cerrar formulario">×</button>
+      <p class="section-kicker">DATOS DEL CLIENTE</p>
+      <h2 id="checkoutTitle">Prepará tu pedido</h2>
+      <p class="checkout-intro">Completá tus datos y te llevaremos a WhatsApp con el pedido listo para enviar.</p>
+      <form id="checkoutForm">
+        <label>Nombre completo<input name="nombre" type="text" autocomplete="name" required></label>
+        <label>Cédula<input name="cedula" type="text" inputmode="numeric" pattern="[0-9]+" autocomplete="off" required></label>
+        <label>Correo electrónico<input name="correo" type="email" autocomplete="email" required></label>
+        <label>Teléfono (8 dígitos)<input name="telefono" type="tel" inputmode="numeric" pattern="[0-9]{8}" minlength="8" autocomplete="tel-national" title="Ingresá un número de teléfono costarricense de 8 dígitos" required></label>
+        <p class="delivery-alert" id="deliveryAlert" role="alert" hidden></p>
+        <fieldset class="delivery-choice">
+          <legend>¿Necesitás entrega en el GAM? (Uber Flash o entrega personal, únicamente en el GAM)</legend>
+          <label><input type="radio" name="envioGAM" value="no" checked> No, pedido normal</label>
+          <label><input type="radio" name="envioGAM" value="si"> Sí</label>
+        </fieldset>
+        <section class="delivery-fields" id="gamDeliveryFields" hidden>
+          <p>Buscá tu dirección en el mapa y ajustá el punto moviendo el marcador o tocando el mapa. El método de entrega se coordinará con RR Parfum.</p>
+          <label>Dirección de entrega<input id="gamAddress" name="direccionGAM" type="text" autocomplete="street-address" placeholder="Buscá tu dirección o escribila" required></label>
+          <div class="map-search"><input id="mapSearchInput" type="search" placeholder="Buscar dirección en Costa Rica" aria-label="Buscar dirección en el mapa"><button class="button button-outline" id="mapSearchButton" type="button">Buscar</button></div>
+          <p class="map-status" id="mapStatus" role="status" aria-live="polite">Buscá una dirección o toca el mapa para marcar el punto.</p>
+          <div class="map-results" id="mapResults"></div>
+          <div class="delivery-map" id="deliveryMap" role="application" aria-label="Mapa para elegir dirección"></div>
+          <input id="deliveryLatitude" name="latitud" type="hidden"><input id="deliveryLongitude" name="longitud" type="hidden">
+        </section>
+        <fieldset class="delivery-choice">
+          <legend>¿Requerís envío por Correos de Costa Rica?</legend>
+          <label><input type="radio" name="envioCorreos" value="no" checked> No, pedido normal</label>
+          <label><input type="radio" name="envioCorreos" value="si"> Sí</label>
+        </fieldset>
+        <section class="delivery-fields" id="correosFields" hidden>
+          <p>Usaremos el nombre, cédula y teléfono indicados arriba como datos del destinatario. Completá la dirección de entrega.</p>
+          <label>Provincia<input name="provincia" type="text" autocomplete="address-level1" required></label>
+          <label>Cantón<input name="canton" type="text" autocomplete="address-level2" required></label>
+          <label>Distrito<input name="distrito" type="text" required></label>
+          <label>Código postal<input name="codigoPostal" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" title="Ingresá el código postal de 5 dígitos" required></label>
+          <label>Otras señas / dirección exacta<textarea name="senas" rows="3" autocomplete="street-address" required></textarea></label>
+        </section>
+        <p class="checkout-products" id="checkoutProducts"></p>
+        <p class="checkout-status" id="checkoutStatus" role="status" aria-live="polite"></p>
+        <div class="cart-footer"><button class="button button-outline" id="backToCart" type="button">Volver al carrito</button><button class="button button-gold" type="submit">Realizar pedido por WhatsApp ↗︎</button></div>
+      </form>
+    </section>
+  </div>
   <script src="products-data.js"></script>
   <script src="app.js"></script>
 </body></html>
